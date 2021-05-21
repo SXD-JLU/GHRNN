@@ -42,8 +42,8 @@ python3 main.py
 GHRNN:
 
 - `dfscode/dfs_code.cpp` calculates the minimum DFS code required by GHRNN. It is adapted from [kaviniitm](https://github.com/kaviniitm/DFSCode). `dfscode/dfs_wrapper.py` is a python wrapper for the cpp file.
-- `GHRNN/model.py` and `graphgen/data.py` contain the model and DataLoader class respectively.
-- `GHRNN/train.py` contains the core loss evaluation and generation algorithm for GHRNN
+- `ghrnn/model.py` and `ghrnn/data.py` contain the model and DataLoader class respectively.
+- `ghrnn/train.py` contains the core loss evaluation and generation algorithm for GHRNN
 
 Parameter setting:
 
